@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
-require 'English'
+require 'English' # 特殊なグローバル変数に対してより読みやすいエイリアスを提供するためのライブラリ
+# $PROCESS_ID または $PID: 現在のプロセスのIDを参照します。これはRubyの標準的なグローバル変数 $0 のエイリアス
 
 parent_pid = $PID  # 親プロセスのPIDを取得
 
